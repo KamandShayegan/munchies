@@ -1,7 +1,9 @@
 # <span style="color:orange">MUNCH</span> - Food Ordering Project (A starting point for a Flutter _food ordering_ application)
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2h3bW52d3lvbjY4MWVzcjd2cHdwd2JocG51NGswYmFhcXJ2M2VhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xH46dD1DSx3vNK/giphy.gif" alt="Munchies" width="300"/>
 
-
+## Authors
+- Mohammadreza Sadeghi
+- Kamand Sedaghat Shayegan
 
 
 ## Introduction
@@ -221,7 +223,7 @@ class MyButton extends StatelessWidget {
 Lastly, again, for usability purposes, we decided to create a reusable button and call it _MyButton()_. This button will show _null_ if there are not texts given to is as the text at the center of the button.
 
 ## Last words
-Of course, there are many other parts of the application to explain, but we decided to keep it short and mention the new and challenging parts of the code. Lastly, it is worth to re-mention that the focus of this application was to use best practices, design user-friendly UI, and write efficient and reusable code. Please contact us (ksedagha23@student.oulu.fi, ) in case there is any ambiguity.  
+Of course, there are many other parts of the application to explain, but we decided to keep it short and mention the new and challenging parts of the code. Lastly, it is worth to re-mention that the focus of this application was to use best practices, design user-friendly UI, and write efficient and reusable code. Please do not hesitate to contact us (ksedagha23@student.oulu.fi, mohammadreza.sadeghi@student.oulu.fi) in case there is any ambiguity.  
 
 
 ## References
