@@ -1,5 +1,4 @@
 # <span style="color:orange">MUNCH</span> - Food Ordering Project (A starting point for a Flutter _food ordering_ application)
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2h3bW52d3lvbjY4MWVzcjd2cHdwd2JocG51NGswYmFhcXJ2M2VhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xH46dD1DSx3vNK/giphy.gif" alt="Munchies" width="300"/>
 
 Demo:\
 [![Munchies project demo](https://img.youtube.com/vi/d7WEqLfyZyI/0.jpg)](https://www.youtube.com/watch?v=d7WEqLfyZyI)
@@ -7,6 +6,9 @@ Demo:\
 ## Authors
 - Mohammadreza Sadeghi
 - Kamand Sedaghat Shayegan
+
+## Grading
+- Both team members received 5/5 grading for this course.
 
 
 ## Introduction
