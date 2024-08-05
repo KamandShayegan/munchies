@@ -10,29 +10,19 @@ Demo:\
 ## Grading
 - Both team members received 5/5 grading for this course.
 
-
 ## Introduction
-The main purpose of this project was to learn new tools and libraries that are more commonly used in Flutter. After enough research, we realized that the tools that we had already used to write the Flutter applications for each homework were not always the best practices (especially in the case of state management). We came across libraries like **BLoC** and **Cubit**, which are state management libraries, and we decided to create an application that handles state management using these packages. Moreover, we focused on using **Material** best practices and Object-Oriented-Design principles to write robust and efficient code.
+The main purpose of this project was to focus on coding techniques to write clean code. Moreover, we came across libraries like **BLoC** and **Cubit**, which are state management libraries, and we decided to create an application that handles state management using the best practices. We focused on using **Material** best practices and Object-Oriented-Design principles to write robust and efficient code.
 
-We started by creating an onboarding page which is aimed at on-boarding the user with the application that they will use. Then we created the main page, which consists of a navigation bar of 4 pages. Due to lack of time and the fact that learning to use a better and more efficient state management library (BLoC and Cubit) took a long time, we were unable to complete the application; however, we will keep the rest of the application that is stayed unimplemented, as a concept of future work. Moreover, it is worth mentioning that through creating this application MVP, we learned many things regarding mobile development and UI design.
-
-## Contribution
-This project would not have gotten to this point without the contribution of both of us (Kamand and Mohammad). We both came to the university every day (even on weekends) for 6 days to work on the code. Fortunately, we both live close to the university, and working on the project together at the university was easy. Our contribution includes long hours of taking turns to do pair programming, once on Mohammad's laptop and once on Kamand's computer. 
-
-## Main Focus
-There were two main purposes for creating MUNCH: 
-1) **To learn a more efficient way to implement state management:** We realized that an application includes more than just a couple of pages, and if more pages are added, managing state with **setState()** can become cumbersome and lead to code that is difficult to maintain. In contrast, using BLoC can help us have a more scalable application. We will dive deeper into the details of the application and how we used it.
-2) **To challenge ourselves with new widgets and components of Flutter:** Creating an application using a variety of widgets and components, learning how to use them, and successfully implementing them was definitely a challenge that we accepted to help us enhance our knowledge of Flutter. Moreover, it helped us discover creative solutions for UI/UX challenges and helped us improve the quality of our application.
-
+We started by creating an onboarding page which is aimed at on-boarding the user with the application that they will use. Then we created the main page, which consists of a navigation bar of 4 pages. **We keep the rest of the application that is stayed unimplemented here as a concept of future work.** 
 
 ## BLoC and Cubit
-It should be mentioned that Cubit is now part of the BLoC library, and so we will only mention BLoC from now on. It is worth mentioning that we care about Human-Computer Interaction (HCI) principles and have decided to focus on obeying HCI principles in the application, and BLoC helps us to achieve this goal.  There are several benefits that BLoC brings to us in comparison to setState(), and we will briefly mention them here:
+Cubit is now part of the BLoC library, so we will only mention BLoC from now. We took into consideration the Human-Computer Interaction (HCI) principles and decided to focus on obeying HCI principles in the application, and BLoC helps us to achieve this goal.  There are several benefits that BLoC brings to us in comparison to setState():
 1) **Separation of Concerns**: This aspect emphasizes that by using BLoC, we will separate the business logic from the code that is implemented for the user interface of the application.
 2) **Reusability** Creating modular logic helps make code easier to understand and maintain by allowing us to reuse it in different parts of the application. This not only improves how the app functions but also makes it easier for others to work on the project, as they can easily comprehend and modify the code.
 3) **Performance Optimization:** By minimizing unnecessary UI updates through writing efficient state management modules (such as updating components only when the underlying data changes) the application's performance is optimized, which would result in a more responsive user interface of Munch.
 
 ## Challenges
-Developing Munch, our food ordering application, had several challenges that we had to overcome. First, as already mentioned, learning BLoC, which is a method for managing app state, took a significant amount of time because it has complexities. However, once we mastered it, developing other parts of the application became much easier. Additionally, we faced challenges in understanding and implementing various new widgets. Learning how to use these widgets without issues was a considerable challenge for us. Furthermore, we had several bugs from time to time, which required hours of debugging to resolve. However, despite these challenges, persevering through them allowed us to create a more robust and functional application.
+Developing Munchies, our food ordering application, had several challenges that we had to overcome. First, as already mentioned, learning BLoC, which is a method for managing app state, took a significant amount of time because it has complexities. However, once we mastered it, developing other parts of the application became much easier. Additionally, we faced challenges in understanding and implementing various new widgets. Learning how to use these widgets without issues was a considerable challenge for us. Furthermore, we had several bugs from time to time, which required hours of debugging to resolve. However, despite these challenges, persevering through them allowed us to create a more robust and functional application.
 
 #### *note:
 It is advisable to review the code as well as the submitted video for a comprehensive understanding of our app, Munch. We say this because the app may appear to have limited features, but we devoted significant effort to writing a scalable, readable, and reusable codebase. It is worth mentioning that we also made efforts to adhere to Object-Oriented Principles (OOP) like Encapsulation, Inheritance, Polymorphism, and Abstraction.  To achieve this level of code quality (which is not perfect of course, but we tried our best) demanded research and reading various documentation sources so that we make sure that we followed best practices.
@@ -65,7 +55,7 @@ class AppCubit extends Cubit<CubitState> {
 }
 ```
 
-Here, AppCubit extends Cubit, which follows the inheritance principle. We do this because we want to extend the functionality of the Cubit class in our AppCubit. This class initializes the state with _InitialState()_ and immediately emits a _WelcomeState()_ (Which is the first page that the user sees when they open Munch). Additionally, it provides methods _setMainPage()_ and _setDetailPage()_ to change the state to _MainPageState()_ and _DetailPageState()_, respectively. Essentially, it manages the state transitions within the application. What are these states?
+Here, AppCubit extends Cubit, which follows the inheritance principle. We do this because we want to extend the functionality of the Cubit class in our AppCubit. This class initializes the state with _InitialState()_ and immediately emits a _WelcomeState()_ (Which is the first page that the user sees when they open Munchies). Additionally, it provides methods _setMainPage()_ and _setDetailPage()_ to change the state to _MainPageState()_ and _DetailPageState()_, respectively. Essentially, it manages the state transitions within the application. What are these states?
 
 #### Each state in Cubit
 _munch/lib/cubit/app_cubit_states.dart_
