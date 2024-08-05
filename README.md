@@ -1,4 +1,4 @@
-# <span style="color:orange">MUNCH</span> - Food Ordering Project (A starting point for a Flutter _food ordering_ application)
+# <span style="color:orange">MUNCHIES</span> - A starting point for a Flutter food ordering application
 
 Demo:\
 [![Munchies project demo](https://img.youtube.com/vi/d7WEqLfyZyI/0.jpg)](https://www.youtube.com/watch?v=d7WEqLfyZyI)
