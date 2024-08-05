@@ -1,27 +1,34 @@
-# <span style="color:orange">MUNCHIES</span> - A starting point for a Flutter food ordering application
+# 🍕 <span style="color:orange">MUNCHIES</span> - A starting point for a Flutter food ordering application
 
-Demo:\
+## Demo
 [![Munchies project demo](https://img.youtube.com/vi/d7WEqLfyZyI/0.jpg)](https://www.youtube.com/watch?v=d7WEqLfyZyI)
+
+## Initiative
+The main purpose of this project was to focus on coding techniques to write clean code. We decided to work with **BLoC** and **Cubit**, which are state management libraries. We also focused on using **Material** best practices and Object-Oriented-Design principles to write robust and efficient code.
 
 ## Authors
 - Mohammadreza Sadeghi
 - Kamand Sedaghat Shayegan
 
-## Grading
-- Both team members received 5/5 grading for this course.
+## Installation
+1. Pre-requisites:
+- **Flutter**: You need to have Flutter installed. Follow the instructions on the [Flutter official website](https://flutter.dev/docs/get-started/install) to install it.
+- **Dart**: Flutter comes with Dart, but ensure you have the latest version by running `flutter upgrade`.
+2. Clone Repository
+3. Install Dependencies: `flutter pub get`
+4. Connect your device by cable or run an emulator (AVD)
+5. Run the app: `Flutter run`
 
-## Introduction
-The main purpose of this project was to focus on coding techniques to write clean code. Moreover, we came across libraries like **BLoC** and **Cubit**, which are state management libraries, and we decided to create an application that handles state management using the best practices. We focused on using **Material** best practices and Object-Oriented-Design principles to write robust and efficient code.
-
+## About Munchies
 We started by creating an onboarding page which is aimed at on-boarding the user with the application that they will use. Then we created the main page, which consists of a navigation bar of 4 pages. **We keep the rest of the application that is stayed unimplemented here as a concept of future work.** 
 
-## BLoC and Cubit
+### BLoC and Cubit
 Cubit is now part of the BLoC library, so we will only mention BLoC from now. We took into consideration the Human-Computer Interaction (HCI) principles and decided to focus on obeying HCI principles in the application, and BLoC helps us to achieve this goal.  There are several benefits that BLoC brings to us in comparison to setState():
 1) **Separation of Concerns**: This aspect emphasizes that by using BLoC, we will separate the business logic from the code that is implemented for the user interface of the application.
 2) **Reusability** Creating modular logic helps make code easier to understand and maintain by allowing us to reuse it in different parts of the application. This not only improves how the app functions but also makes it easier for others to work on the project, as they can easily comprehend and modify the code.
 3) **Performance Optimization:** By minimizing unnecessary UI updates through writing efficient state management modules (such as updating components only when the underlying data changes) the application's performance is optimized, which would result in a more responsive user interface of Munch.
 
-## Challenges
+### Challenges
 Developing Munchies, our food ordering application, had several challenges that we had to overcome. First, as already mentioned, learning BLoC, which is a method for managing app state, took a significant amount of time because it has complexities. However, once we mastered it, developing other parts of the application became much easier. Additionally, we faced challenges in understanding and implementing various new widgets. Learning how to use these widgets without issues was a considerable challenge for us. Furthermore, we had several bugs from time to time, which required hours of debugging to resolve. However, despite these challenges, persevering through them allowed us to create a more robust and functional application.
 
 #### *note:
